@@ -24,12 +24,6 @@
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/title-work.svg" alt="Featured Work"/></p>
 <p align="center"><a href="https://rudraanalyzer.in"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/project-rudra.svg" alt="Rudra Analyzer, live at rudraanalyzer.in"/></a></p>
 <p align="center"><a href="https://policymitra.online"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/project-policymitra.svg" alt="Policy Mitra AIOS, client project, live at policymitra.online"/></a></p>
-<p align="center">
-  <a href="https://github.com/Anujrastogi24/RudraTechno"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=RudraTechno" alt="RudraTechno"/></a>
-  <a href="https://github.com/Anujrastogi24/anujrastogi"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=anujrastogi" alt="Portfolio"/></a>
-  <a href="https://github.com/Anujrastogi24/adminnn"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=adminnn" alt="Admin dashboard"/></a>
-  <a href="https://github.com/Anujrastogi24/django-auth"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=django-auth" alt="django-auth"/></a>
-</p>
 
 <!-- ═══════════════════════════ STATS (BOTH ACCOUNTS) ═══════════════════════════ -->
 <p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/title-activity.svg" alt="GitHub Activity: Work + Personal"/></p>
@@ -41,9 +35,6 @@
 <p align="center">
   <img width="49%" src="https://streak-stats.demolab.com?user=Anujrastogi-1&theme=tokyonight&hide_border=true&border_radius=12" alt="Work streak"/>
   <img width="49%" src="https://streak-stats.demolab.com?user=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12" alt="Personal streak"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anujrastogi24&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages"/>
 </p>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
