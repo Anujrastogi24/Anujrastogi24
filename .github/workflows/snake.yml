@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate contribution graphs
 
 on:
   schedule:
@@ -15,6 +15,17 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate combined personal + work graph
+        run: |
+          mkdir -p dist
+          python scripts/combined_graph.py dist/combined-graph.svg
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:
