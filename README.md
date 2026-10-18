@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.anujrastogi.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+analytics%2C+security+%26+AI+tools;Software+Engineer+%40+IntelligenceX;902%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+analytics%2C+security+%26+AI+tools;Software+Engineer+%40+IntelligenceX;900%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
   </a>
 </p>
 
@@ -106,6 +106,10 @@ Automated website testing platform — scores any URL across **7 categories** (P
 
 <!-- ═══════════════════════════ STATS (BOTH ACCOUNTS) ═══════════════════════════ -->
 <h2>📊 GitHub Activity — Personal + Work</h2>
+
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/combined-graph.svg" alt="Combined contribution graph (personal + work)"/>
+</p>
 
 <p>I commit from two accounts: this one for personal &amp; open projects, and
 <a href="https://github.com/Anujrastogi-1"><b>@Anujrastogi-1</b></a> for my day-to-day work at
