@@ -79,10 +79,18 @@ class AnujRastogi:
 <tr>
 <td colspan="2">
 
-### 🔎 Rudra Website Analyzer &nbsp;<sub><img src="https://img.shields.io/badge/SaaS-private-64748B?style=flat-square" alt="private"/></sub>
+### 🔎 Rudra Analyzer &nbsp;<a href="https://rudraanalyzer.in"><img src="https://img.shields.io/badge/Live-rudraanalyzer.in-22C55E?style=flat-square&logo=googlechrome&logoColor=white" alt="Live: rudraanalyzer.in"/></a>
 Automated website testing platform — scores any URL across **7 categories** (Performance, SEO, Responsive, Accessibility, Security/SSL, API health, Functional/UI), with a **full-site crawler**, **real-device responsive testing** via Playwright, PDF reports, a **7-language UI** and **Stripe / Razorpay** subscriptions.
 
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Django%20REST-092E20?style=flat-square&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+
+</td>
+</tr>
+<tr>
+<td colspan="2">
+
+### 🛡️ Policy Mitra AIOS &nbsp;<a href="https://policymitra.online"><img src="https://img.shields.io/badge/Live-policymitra.online-22C55E?style=flat-square&logo=googlechrome&logoColor=white" alt="Live: policymitra.online"/></a> <img src="https://img.shields.io/badge/Client%20Project-A78BFA?style=flat-square" alt="Client project"/>
+An intelligent operating system for **insurance advisors** — manage customers, families, policies and **renewals** in one platform built for advisors, brokers, enterprises and families.
 
 </td>
 </tr>
@@ -140,17 +148,6 @@ Automated website testing platform — scores any URL across **7 categories** (P
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anujrastogi24&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages"/>
-</p>
-
-<!-- ═══════════════════════════ SNAKE ═══════════════════════════ -->
-<h2>🐍 Contribution Snake (Work account)</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/snake.svg"/>
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/snake-dark.svg"/>
-  </picture>
 </p>
 
 <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->

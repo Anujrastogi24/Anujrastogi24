@@ -1,4 +1,4 @@
-name: Generate contribution graphs
+name: Generate contribution graph
 
 on:
   schedule:
@@ -25,14 +25,6 @@ jobs:
         run: |
           mkdir -p dist
           python scripts/combined_graph.py dist/combined-graph.svg
-
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: Anujrastogi-1
-          outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark&color_snake=#38BDF8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
