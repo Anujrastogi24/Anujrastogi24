@@ -1,11 +1,11 @@
 <!-- ═══════════════════════════ HEADER ═══════════════════════════ -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Anuj%20Rastogi&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%A2%20Data%20Analyst%20%E2%80%A2%20Security%20Builder&descSize=18&descAlignY=58&animation=fadeIn" alt="Anuj Rastogi"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Anuj%20Rastogi&fontSize=64&fontColor=ffffff&fontAlignY=36&desc=Software%20Engineer%20%E2%80%A2%20Data%20Analyst%20%E2%80%A2%20Full-Stack%20Developer&descSize=18&descAlignY=58&animation=fadeIn" alt="Anuj Rastogi"/>
 </p>
 
 <p align="center">
   <a href="https://www.anujrastogi.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+analytics%2C+security+%26+AI+tools;Software+Engineer+%40+IntelligenceX;1%2C100%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+web+apps%2C+analytics+%26+AI+tools;Deploying+production+apps+on+Vercel+%E2%96%B2;Software+Engineer+%40+IntelligenceX;1%2C100%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
   </a>
 </p>
 
@@ -33,13 +33,13 @@ class AnujRastogi:
     focus = [
         "Full-stack products (Django · REST APIs · Next.js)",
         "API architecture & automated testing",
-        "Security auditing & web analysis tooling",
+        "Deploying company projects to production on Vercel",
         "Analytics dashboards with Power BI",
         "AI-assisted engineering workflows",
     ]
 
     def motto(self):
-        return "Build things that are useful, secure and measurable."
+        return "Build things that are useful, reliable and measurable."
 ```
 
 </td>
@@ -47,7 +47,7 @@ class AnujRastogi:
 
 - 💼 &nbsp;**Software Engineer** at **IntelligenceX**
 - 🛠️ &nbsp;Shipping scalable **SaaS** platforms end to end
-- 🔐 &nbsp;Into **security**, SSL & API health checks
+- ▲ &nbsp;Deployed **company projects** to production on **Vercel**
 - 📊 &nbsp;Turning data into decisions with **Power BI**
 - 🤖 &nbsp;Exploring **AI-powered developer tools**
 - 🌱 &nbsp;Always learning, always shipping
