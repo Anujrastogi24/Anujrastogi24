@@ -31,7 +31,7 @@ class AnujRastogi:
     portfolio = "https://www.anujrastogi.in"
 
     focus = [
-        "Full-stack products (Django · FastAPI · Next.js)",
+        "Full-stack products (Django · REST APIs · Next.js)",
         "API architecture & automated testing",
         "Security auditing & web analysis tooling",
         "Analytics dashboards with Power BI",
