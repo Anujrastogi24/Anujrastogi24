@@ -1,4 +1,4 @@
-name: Generate contribution graph
+name: Generate contribution graphs
 
 on:
   schedule:
@@ -21,10 +21,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Generate combined personal + work graph
-        run: |
-          mkdir -p dist
-          python scripts/combined_graph.py dist/combined-graph.svg
+      - name: Generate work + personal graphs
+        run: python scripts/contribution_graphs.py dist
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

@@ -115,9 +115,6 @@ An intelligent operating system for **insurance advisors** — manage customers,
 <!-- ═══════════════════════════ STATS (BOTH ACCOUNTS) ═══════════════════════════ -->
 <h2>📊 GitHub Activity — Personal + Work</h2>
 
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/combined-graph.svg" alt="Combined contribution graph (personal + work)"/>
-</p>
 
 <p>I commit from two accounts: this one for personal &amp; open projects, and
 <a href="https://github.com/Anujrastogi-1"><b>@Anujrastogi-1</b></a> for my day-to-day work at
@@ -127,6 +124,14 @@ An intelligent operating system for **insurance advisors** — manage customers,
 <tr>
 <th width="50%">🏢 Work · @Anujrastogi-1</th>
 <th width="50%">👤 Personal · @Anujrastogi24</th>
+</tr>
+<tr>
+<td align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-work.svg" alt="Work contribution graph"/>
+</td>
+<td align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-personal.svg" alt="Personal contribution graph"/>
+</td>
 </tr>
 <tr>
 <td align="center">
