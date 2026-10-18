@@ -15,117 +15,33 @@
   <a href="https://github.com/Anujrastogi-1"><img src="https://img.shields.io/badge/Work%20Account-Anujrastogi--1-34D399?style=for-the-badge&logo=github&logoColor=white&labelColor=0f172a" alt="Work GitHub account"/></a>
 </p>
 
-<br/>
-
 <!-- ═══════════════════════════ ABOUT ═══════════════════════════ -->
-<h2>⚡ About Me</h2>
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-```python
-class AnujRastogi:
-    role      = "Software Engineer & Data Analyst"
-    company   = "IntelligenceX"
-    portfolio = "https://www.anujrastogi.in"
-
-    focus = [
-        "Full-stack products (Django · REST APIs · Next.js)",
-        "API architecture & automated testing",
-        "Deploying company projects to production on Vercel",
-        "Analytics dashboards with Power BI",
-        "AI-assisted engineering workflows",
-    ]
-
-    def motto(self):
-        return "Build things that are useful, reliable and measurable."
-```
-
-</td>
-<td width="42%" valign="top">
-
-- 💼 &nbsp;**Software Engineer** at **IntelligenceX**
-- 🛠️ &nbsp;Shipping scalable **SaaS** platforms end to end
-- ▲ &nbsp;Deployed **company projects** to production on **Vercel**
-- 📊 &nbsp;Turning data into decisions with **Power BI**
-- 🤖 &nbsp;Exploring **AI-powered developer tools**
-- 🌱 &nbsp;Always learning, always shipping
-
-</td>
-</tr>
-</table>
+<!-- Text sections are dark SVG cards (assets/, built by scripts/cards.py) so the page looks dark in any GitHub theme. -->
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/title-about.svg" alt="About Me"/></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/about.svg" alt="About Anuj: Software Engineer at IntelligenceX; Django, REST APIs, Next.js; production deploys on Vercel; Power BI analytics; AI-assisted workflows"/></p>
 
 <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
-<h2>🚀 Featured Work</h2>
-
-<table>
-<tr>
-<td colspan="2">
-
-### 🔎 Rudra Analyzer &nbsp;<a href="https://rudraanalyzer.in"><img src="https://img.shields.io/badge/Live-rudraanalyzer.in-22C55E?style=flat-square&logo=googlechrome&logoColor=white" alt="Live: rudraanalyzer.in"/></a>
-Automated website testing platform — scores any URL across **7 categories** (Performance, SEO, Responsive, Accessibility, Security/SSL, API health, Functional/UI), with a **full-site crawler**, **real-device responsive testing** via Playwright, PDF reports, a **7-language UI** and **Stripe / Razorpay** subscriptions.
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/> <img src="https://img.shields.io/badge/Django%20REST-092E20?style=flat-square&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-
-</td>
-</tr>
-<tr>
-<td colspan="2">
-
-### 🛡️ Policy Mitra AIOS &nbsp;<a href="https://policymitra.online"><img src="https://img.shields.io/badge/Live-policymitra.online-22C55E?style=flat-square&logo=googlechrome&logoColor=white" alt="Live: policymitra.online"/></a> <img src="https://img.shields.io/badge/Client%20Project-A78BFA?style=flat-square" alt="Client project"/>
-An intelligent operating system for **insurance advisors** — manage customers, families, policies and **renewals** in one platform built for advisors, brokers, enterprises and families.
-
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-  <a href="https://github.com/Anujrastogi24/RudraTechno"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&repo=RudraTechno&theme=tokyonight&hide_border=true&border_radius=12" alt="RudraTechno"/></a>
-</td>
-<td width="50%" align="center">
-  <a href="https://github.com/Anujrastogi24/anujrastogi"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&repo=anujrastogi&theme=tokyonight&hide_border=true&border_radius=12" alt="Portfolio"/></a>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
-  <a href="https://github.com/Anujrastogi24/adminnn"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&repo=adminnn&theme=tokyonight&hide_border=true&border_radius=12" alt="Admin dashboard"/></a>
-</td>
-<td width="50%" align="center">
-  <a href="https://github.com/Anujrastogi24/django-auth"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&repo=django-auth&theme=tokyonight&hide_border=true&border_radius=12" alt="django-auth"/></a>
-</td>
-</tr>
-</table>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/title-work.svg" alt="Featured Work"/></p>
+<p align="center"><a href="https://rudraanalyzer.in"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/project-rudra.svg" alt="Rudra Analyzer, live at rudraanalyzer.in"/></a></p>
+<p align="center"><a href="https://policymitra.online"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/project-policymitra.svg" alt="Policy Mitra AIOS, client project, live at policymitra.online"/></a></p>
+<p align="center">
+  <a href="https://github.com/Anujrastogi24/RudraTechno"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=RudraTechno" alt="RudraTechno"/></a>
+  <a href="https://github.com/Anujrastogi24/anujrastogi"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=anujrastogi" alt="Portfolio"/></a>
+  <a href="https://github.com/Anujrastogi24/adminnn"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=adminnn" alt="Admin dashboard"/></a>
+  <a href="https://github.com/Anujrastogi24/django-auth"><img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12&repo=django-auth" alt="django-auth"/></a>
+</p>
 
 <!-- ═══════════════════════════ STATS (BOTH ACCOUNTS) ═══════════════════════════ -->
-<h2>📊 GitHub Activity — Personal + Work</h2>
-
-<p>I commit from two accounts: this one for personal &amp; open projects, and
-<a href="https://github.com/Anujrastogi-1"><b>@Anujrastogi-1</b></a> for my day-to-day work at
-<a href="https://github.com/IntelligenceX-org"><b>IntelligenceX</b></a> (mostly private repositories). Numbers below include private contributions from both accounts.</p>
-
-<table>
-<tr>
-<th width="50%">🏢 Work · @Anujrastogi-1</th>
-<th width="50%">👤 Personal · @Anujrastogi24</th>
-</tr>
-<tr>
-<td align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-work.svg" alt="Work contribution graph"/>
-</td>
-<td align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-personal.svg" alt="Personal contribution graph"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=Anujrastogi-1&theme=tokyonight&hide_border=true&border_radius=12" alt="Work streak"/>
-</td>
-<td align="center">
-  <img width="100%" src="https://streak-stats.demolab.com?user=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12" alt="Personal streak"/>
-</td>
-</tr>
-</table>
-
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/title-activity.svg" alt="GitHub Activity: Work + Personal"/></p>
+<p align="center"><img width="100%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/main/assets/activity-note.svg" alt="Two accounts: @Anujrastogi-1 for work at IntelligenceX, @Anujrastogi24 for personal projects"/></p>
+<p align="center">
+  <a href="https://github.com/Anujrastogi-1"><img width="49%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-work.svg" alt="Work contribution graph"/></a>
+  <img width="49%" src="https://raw.githubusercontent.com/Anujrastogi24/Anujrastogi24/output/graph-personal.svg" alt="Personal contribution graph"/>
+</p>
+<p align="center">
+  <img width="49%" src="https://streak-stats.demolab.com?user=Anujrastogi-1&theme=tokyonight&hide_border=true&border_radius=12" alt="Work streak"/>
+  <img width="49%" src="https://streak-stats.demolab.com?user=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12" alt="Personal streak"/>
+</p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anujrastogi24&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages"/>
 </p>

@@ -6,7 +6,7 @@ import sys
 import urllib.request
 
 # account -> output file name
-USERS = {"Anujrastogi-1": "graph-work.svg", "Anujrastogi24": "graph-personal.svg"}
+USERS = {"Anujrastogi-1": ("graph-work.svg", "Work"), "Anujrastogi24": ("graph-personal.svg", "Personal")}
 START = dt.date(2026, 5, 1)  # first month with real activity; earlier weeks are empty
 OUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "."
 
@@ -31,7 +31,7 @@ def fetch(user):
     return counts
 
 
-def render(user, counts, end):
+def render(user, label, counts, end):
     start = START - dt.timedelta(days=(START.weekday() + 1) % 7)  # align to Sunday
     days = [START + dt.timedelta(days=i) for i in range((end - START).days + 1)]
     total = {d: counts.get(d, 0) for d in days}
@@ -63,7 +63,7 @@ def render(user, counts, end):
         ".t{fill:#e6edf3}.m{fill:#8b949e;font-size:10px}.s{fill:#38BDF8;font-weight:700;font-size:20px}.l{fill:#8b949e;font-size:10px}</style>",
         '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="12" fill="url(#bg)" stroke="#30363d"/>',
-        f'<text x="{LEFT}" y="28" class="t" font-size="14" font-weight="600">@{user} · last 12 months</text>',
+        f'<text x="{LEFT}" y="28" class="t" font-size="14" font-weight="600">{label} · @{user} · last 12 months</text>',
     ]
     stats = [(f"{grand:,}", "contributions"), (f"{active}", "active days"),
              (f"{current}", "current streak"), (f"{longest}", "longest streak")]
@@ -101,8 +101,8 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     data = {user: fetch(user) for user in USERS}
     end = max(max(c) for c in data.values())  # same end date for both graphs
-    for user, name in USERS.items():
-        svg, grand, active = render(user, data[user], end)
+    for user, (name, label) in USERS.items():
+        svg, grand, active = render(user, label, data[user], end)
         path = os.path.join(OUT_DIR, name)
         with open(path, "w", encoding="utf-8") as fh:
             fh.write(svg)
