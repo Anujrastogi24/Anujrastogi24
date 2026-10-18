@@ -7,7 +7,7 @@ import urllib.request
 
 # account -> output file name
 USERS = {"Anujrastogi-1": "graph-work.svg", "Anujrastogi24": "graph-personal.svg"}
-START = dt.date(2026, 6, 1)  # first month with real activity; earlier weeks are empty
+START = dt.date(2026, 5, 1)  # first month with real activity; earlier weeks are empty
 OUT_DIR = sys.argv[1] if len(sys.argv) > 1 else "."
 
 WIDTH, GAP, LEFT, TOP = 460, 3, 36, 104
@@ -46,12 +46,16 @@ def render(user, counts, end):
     cell = min((WIDTH - LEFT - 16) // weeks - GAP, 24)
     height = TOP + 7 * (cell + GAP) + 40
 
-    grand = sum(total.values())
-    active = sum(1 for v in total.values() if v)
+    # headline numbers use the whole fetched year, not just the plotted weeks
+    grand = sum(counts.values())
+    active = sum(1 for v in counts.values() if v)
     streak = longest = 0
-    for d in days:
-        streak = streak + 1 if total[d] else 0
+    for d in sorted(counts):
+        streak = streak + 1 if counts[d] else 0
         longest = max(longest, streak)
+    current, d = 0, end if counts.get(end) else end - dt.timedelta(days=1)
+    while counts.get(d):
+        current, d = current + 1, d - dt.timedelta(days=1)
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" viewBox="0 0 {WIDTH} {height}" font-family="Segoe UI,Helvetica,Arial,sans-serif">',
@@ -59,11 +63,12 @@ def render(user, counts, end):
         ".t{fill:#e6edf3}.m{fill:#8b949e;font-size:10px}.s{fill:#38BDF8;font-weight:700;font-size:20px}.l{fill:#8b949e;font-size:10px}</style>",
         '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#0d1117"/></linearGradient></defs>',
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="12" fill="url(#bg)" stroke="#30363d"/>',
-        f'<text x="{LEFT}" y="28" class="t" font-size="14" font-weight="600">@{user} · since {START:%B %Y}</text>',
+        f'<text x="{LEFT}" y="28" class="t" font-size="14" font-weight="600">@{user} · last 12 months</text>',
     ]
-    stats = [(f"{grand:,}", "contributions"), (f"{active}", "active days"), (f"{longest}", "longest streak")]
+    stats = [(f"{grand:,}", "contributions"), (f"{active}", "active days"),
+             (f"{current}", "current streak"), (f"{longest}", "longest streak")]
     for i, (num, label) in enumerate(stats):
-        x = LEFT + i * 135
+        x = LEFT + i * 102
         out.append(f'<text x="{x}" y="56" class="s">{num}</text><text x="{x}" y="70" class="l">{label}</text>')
 
     for i, name in ((1, "Mon"), (3, "Wed"), (5, "Fri")):

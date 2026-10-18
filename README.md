@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.anujrastogi.in">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+analytics%2C+security+%26+AI+tools;Software+Engineer+%40+IntelligenceX;900%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=640&lines=Full-Stack+Engineer+%7C+Python+%2B+Django+%2B+Next.js;Building+analytics%2C+security+%26+AI+tools;Software+Engineer+%40+IntelligenceX;1%2C100%2B+contributions+in+the+last+year+%F0%9F%9A%80" alt="Typing intro"/>
   </a>
 </p>
 
@@ -56,22 +56,6 @@ class AnujRastogi:
 </tr>
 </table>
 
-<!-- ═══════════════════════════ STACK ═══════════════════════════ -->
-<h2>🧰 Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,ts,js,html,css,django,fastapi,nodejs,express,react,nextjs,tailwind,postgres,mongodb,mysql,redis,docker,git,github,vercel,linux,vscode&perline=11&theme=dark" alt="Tech stack"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Django%20REST-A30000?style=flat-square&logo=django&logoColor=white" alt="DRF"/>
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"/>
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright"/>
-  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
-  <img src="https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white" alt="Razorpay"/>
-  <img src="https://img.shields.io/badge/REST%20APIs-0EA5E9?style=flat-square&logo=postman&logoColor=white" alt="REST APIs"/>
-</p>
-
 <!-- ═══════════════════════════ PROJECTS ═══════════════════════════ -->
 <h2>🚀 Featured Work</h2>
 
@@ -115,10 +99,9 @@ An intelligent operating system for **insurance advisors** — manage customers,
 <!-- ═══════════════════════════ STATS (BOTH ACCOUNTS) ═══════════════════════════ -->
 <h2>📊 GitHub Activity — Personal + Work</h2>
 
-
 <p>I commit from two accounts: this one for personal &amp; open projects, and
 <a href="https://github.com/Anujrastogi-1"><b>@Anujrastogi-1</b></a> for my day-to-day work at
-<a href="https://github.com/IntelligenceX-org"><b>IntelligenceX</b></a> (mostly private repositories).</p>
+<a href="https://github.com/IntelligenceX-org"><b>IntelligenceX</b></a> (mostly private repositories). Numbers below include private contributions from both accounts.</p>
 
 <table>
 <tr>
@@ -139,14 +122,6 @@ An intelligent operating system for **insurance advisors** — manage customers,
 </td>
 <td align="center">
   <img width="100%" src="https://streak-stats.demolab.com?user=Anujrastogi24&theme=tokyonight&hide_border=true&border_radius=12" alt="Personal streak"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Anujrastogi-1&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github" alt="Work stats"/>
-</td>
-<td align="center">
-  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Anujrastogi24&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&border_radius=12&rank_icon=github" alt="Personal stats"/>
 </td>
 </tr>
 </table>
